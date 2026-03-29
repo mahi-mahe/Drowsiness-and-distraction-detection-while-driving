@@ -1,0 +1,19 @@
+{
+  "ear_threshold": 0.25,
+  "ear_consec_frames": 15,
+  "mar_threshold": 0.6,
+  "mar_consec_frames": 20,
+  "pitch_threshold": 20.0,
+  "yaw_threshold": 30.0,
+  "pose_consec_frames": 10,
+  "phone_conf_threshold": 0.45,
+  "best_ear_threshold": 0.15,
+  "alert_weights": {
+    "eye": 0.35,
+    "head": 0.25,
+    "yawn": 0.2,
+    "phone": 0.2
+  },
+  "dataset": "YawDD (enider/yawdd-dataset)",
+  "phone_model": "YOLOv8n COCO class 67"
+}
