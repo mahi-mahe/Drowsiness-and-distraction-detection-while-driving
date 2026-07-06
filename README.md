@@ -1,13 +1,13 @@
 # Drowsiness-and-distraction-detection-while-driving
 The project tries to use AI &amp; Computer Vision to create a seamless pipeline enabling drowsiness and distraction detection and raising alert under critical situations.
-# Driver Drowsiness & Distraction Detection 🚗💤📱
+# Driver Drowsiness & Distraction Detection
 
 An end-to-end pipeline for detecting **driver drowsiness and distraction** using the **YawDD dataset** and **YOLOv8n (COCO pretrained weights)**.  
 This project integrates multiple detectors — **Eye Aspect Ratio (EAR)**, **Mouth Aspect Ratio (MAR)**, **Head Pose Estimation**, and **Phone Detection** — into a unified alert system with visualization, metrics, and Streamlit deployment.
 
 ---
 
-## 📂 Project Workflow
+## Project Workflow
 
 | Step | Description |
 |------|-------------|
@@ -23,7 +23,7 @@ This project integrates multiple detectors — **Eye Aspect Ratio (EAR)**, **Mou
 
 ---
 
-## 🧠 Why YOLOv8n?
+## Why YOLOv8n?
 
 - **Pretrained on COCO**: YOLOv8n already includes robust detection for **cell phones (class 67)**, eliminating the need for retraining.
 - **Lightweight (nano version)**: Optimized for **real-time inference** on resource-constrained environments (e.g., T4 GPU, edge devices).
@@ -32,7 +32,7 @@ This project integrates multiple detectors — **Eye Aspect Ratio (EAR)**, **Mou
 
 ---
 
-## 📊 Metrics & Evaluation
+## Metrics & Evaluation
 
 We used **Precision, Recall, and F1-score** because:
 
@@ -46,7 +46,7 @@ We used **Precision, Recall, and F1-score** because:
 
 ---
 
-## 📈 Key Features
+## Key Features
 
 - **EAR Detector**: Identifies prolonged eye closure.
 - **MAR Detector**: Detects yawning events.
@@ -60,7 +60,7 @@ We used **Precision, Recall, and F1-score** because:
 
 ---
 
-## 📦 Streamlit Deployment
+## Streamlit Deployment
 
 Artifacts saved for Streamlit app:
 - `config.json` → Detector thresholds & weights
